@@ -1,0 +1,12 @@
+Order No. Order - 1737624512510
+Customer Name: Kimesh
+Customer Email: kimesh@gmail.com
+Customer Contact: 0734449485Customer Location: Durban
+Your order from Romansin Durban:
+[kimesh.hyperionDev.model.Meal@15327b79, kimesh.hyperionDev.model.Meal@4f2410ac]
+Preparation Instructions: Please add extra cheese on both pizzas
+Total Due: R34.0
+Eugene Santana is the nearest to the restaurant you ordered from, He/She will be delivering your order to: 12 Regent lane
+Durban
+1950
+If you need to contact the restaurant, their contact is romans@gmail.com
