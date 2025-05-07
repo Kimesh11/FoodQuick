@@ -4,47 +4,50 @@ import java.util.List;
 
 public class Restaurant {
 
-	private String restautantName;
-	private Contact contact;
-	private Address address;
-	private List<Meal> listOfMeals;
-	
-	public Restaurant(String restautantName, Contact contact, Address address, List<Meal> listOfMeals) {
-		this.restautantName = restautantName;
-		this.contact = contact;
-		this.address = address;
-		this.listOfMeals = listOfMeals;
-	}
+	// Restaurant variables
+  private String restautantName;
+  private Contact contact;
+  private Address address;
+  private List<Meal> listOfMeals;
 
-	public String getRestautantName() {
-		return restautantName;
-	}
+	// Constructor
+  public Restaurant(String restautantName, Contact contact, Address address, List<Meal> listOfMeals) {
+    this.restautantName = restautantName;
+    this.contact = contact;
+    this.address = address;
+    this.listOfMeals = listOfMeals;
+  }
 
-	public void setRestautantName(String restautantName) {
-		this.restautantName = restautantName;
-	}
+	// Getters and setters
+  public String getRestautantName() {
+    return restautantName;
+  }
 
-	public Contact getContact() {
-		return contact;
-	}
+  public void setRestautantName(String restautantName) {
+    this.restautantName = restautantName;
+  }
 
-	public void setContact(Contact contact) {
-		this.contact = contact;
-	}
+  public Contact getContact() {
+    return contact;
+  }
 
-	public Address getAddress() {
-		return address;
-	}
+  public void setContact(Contact contact) {
+    this.contact = contact;
+  }
 
-	public void setAddress(Address address) {
-		this.address = address;
-	}
+  public Address getAddress() {
+    return address;
+  }
 
-	public List<Meal> getListOfMeals() {
-		return listOfMeals;
-	}
+  public void setAddress(Address address) {
+    this.address = address;
+  }
 
-	public void setListOfMeals(List<Meal> listOfMeals) {
-		this.listOfMeals = listOfMeals;
-	}
+  public List<Meal> getListOfMeals() {
+    return listOfMeals;
+  }
+
+  public void setListOfMeals(List<Meal> listOfMeals) {
+    this.listOfMeals = listOfMeals;
+  }
 }

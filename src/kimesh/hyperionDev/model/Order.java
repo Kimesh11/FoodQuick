@@ -3,82 +3,86 @@ package kimesh.hyperionDev.model;
 import java.time.Instant;
 import java.util.List;
 
-import kimesh.hyerionDev.enums.Status;
+import kimesh.hyperionDev.enums.Status;
 
 public class Order {
-	private String orderNumber;
-	private Status status;
-	private Instant orderDate;
-	private Customer customerDetails;
-	private Restaurant restaurantDetails;
-	private List<Meal> listOfMealsBeingOrdered;
-	private String preparationInstructions;
-	
-	public Order(String orderNumber, Status status, Instant orderDate, Customer customerDetails,
-			Restaurant restaurantDetails, List<Meal> listOfMealsBeingOrdered, String preparationInstructions) {
-		this.orderNumber = orderNumber;
-		this.status = status;
-		this.orderDate = orderDate;
-		this.customerDetails = customerDetails;
-		this.restaurantDetails = restaurantDetails;
-		this.listOfMealsBeingOrdered = listOfMealsBeingOrdered;
-		this.preparationInstructions = preparationInstructions;
-	}
 
-	public String getOrderNumber() {
-		return orderNumber;
-	}
+  // Order variables
+  private String orderNumber;
+  private Status status;
+  private Instant orderDate;
+  private Customer customerDetails;
+  private Restaurant restaurantDetails;
+  private List<Meal> listOfMealsBeingOrdered;
+  private String preparationInstructions;
 
-	public void setOrderNumber(String orderNumber) {
-		this.orderNumber = orderNumber;
-	}
+  // Constructor
+  public Order(String orderNumber, Status status, Instant orderDate, Customer customerDetails,
+               Restaurant restaurantDetails, List<Meal> listOfMealsBeingOrdered, String preparationInstructions) {
+    this.orderNumber = orderNumber;
+    this.status = status;
+    this.orderDate = orderDate;
+    this.customerDetails = customerDetails;
+    this.restaurantDetails = restaurantDetails;
+    this.listOfMealsBeingOrdered = listOfMealsBeingOrdered;
+    this.preparationInstructions = preparationInstructions;
+  }
 
-	public Status getStatus() {
-		return status;
-	}
+  // Getters and setters
+  public String getOrderNumber() {
+    return orderNumber;
+  }
 
-	public void setStatus(Status status) {
-		this.status = status;
-	}
+  public void setOrderNumber(String orderNumber) {
+    this.orderNumber = orderNumber;
+  }
 
-	public Instant getOrderDate() {
-		return orderDate;
-	}
+  public Status getStatus() {
+    return status;
+  }
 
-	public void setOrderDate(Instant orderDate) {
-		this.orderDate = orderDate;
-	}
+  public void setStatus(Status status) {
+    this.status = status;
+  }
 
-	public Customer getCustomerDetails() {
-		return customerDetails;
-	}
+  public Instant getOrderDate() {
+    return orderDate;
+  }
 
-	public void setCustomerDetails(Customer customerDetails) {
-		this.customerDetails = customerDetails;
-	}
+  public void setOrderDate(Instant orderDate) {
+    this.orderDate = orderDate;
+  }
 
-	public Restaurant getRestaurantDetails() {
-		return restaurantDetails;
-	}
+  public Customer getCustomerDetails() {
+    return customerDetails;
+  }
 
-	public void setRestaurantDetails(Restaurant restaurantDetails) {
-		this.restaurantDetails = restaurantDetails;
-	}
+  public void setCustomerDetails(Customer customerDetails) {
+    this.customerDetails = customerDetails;
+  }
 
-	public List<Meal> getListOfMealsBeingOrdered() {
-		return listOfMealsBeingOrdered;
-	}
+  public Restaurant getRestaurantDetails() {
+    return restaurantDetails;
+  }
 
-	public void setListOfMealsBeingOrdered(List<Meal> listOfMealsBeingOrdered) {
-		this.listOfMealsBeingOrdered = listOfMealsBeingOrdered;
-	}
+  public void setRestaurantDetails(Restaurant restaurantDetails) {
+    this.restaurantDetails = restaurantDetails;
+  }
 
-	public String getPreparationInstructions() {
-		return preparationInstructions;
-	}
+  public List<Meal> getListOfMealsBeingOrdered() {
+    return listOfMealsBeingOrdered;
+  }
 
-	public void setPreparationInstructions(String preparationInstructions) {
-		this.preparationInstructions = preparationInstructions;
-	}
-	
+  public void setListOfMealsBeingOrdered(List<Meal> listOfMealsBeingOrdered) {
+    this.listOfMealsBeingOrdered = listOfMealsBeingOrdered;
+  }
+
+  public String getPreparationInstructions() {
+    return preparationInstructions;
+  }
+
+  public void setPreparationInstructions(String preparationInstructions) {
+    this.preparationInstructions = preparationInstructions;
+  }
+
 }

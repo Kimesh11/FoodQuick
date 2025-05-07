@@ -1,45 +1,49 @@
 package kimesh.hyperionDev.model;
 
 public class Driver {
-	
-	private String driverName;
-	private String cityName;
-	private int deliveries;
-	
-	public Driver(String driverName, String cityName, int deliveries) {
-		this.driverName = driverName;
-		this.cityName = cityName;
-		this.deliveries = deliveries;
-	}
 
-	public String getDriverName() {
-		return driverName;
-	}
+	// Driver variables
+  private String driverName;
+  private String cityName;
+  private int deliveries;
 
-	public void setDriverName(String driverName) {
-		this.driverName = driverName;
-	}
+	// Constructor
+  public Driver(String driverName, String cityName, int deliveries) {
+    this.driverName = driverName;
+    this.cityName = cityName;
+    this.deliveries = deliveries;
+  }
 
-	public String getCityName() {
-		return cityName;
-	}
+	// Getters and setters
+  public String getDriverName() {
+    return driverName;
+  }
 
-	public void setCityName(String cityName) {
-		this.cityName = cityName;
-	}
+  public void setDriverName(String driverName) {
+    this.driverName = driverName;
+  }
 
-	public int getDeliveries() {
-		return deliveries;
-	}
+  public String getCityName() {
+    return cityName;
+  }
 
-	public void setDeliveries(int deliveries) {
-		this.deliveries = deliveries;
-	}
+  public void setCityName(String cityName) {
+    this.cityName = cityName;
+  }
 
-	@Override
-	public String toString() {
-		return "Driver - \nDriver Name: " + driverName + ", \nCity Name: " + cityName + ", \nDeliveries: " + deliveries + "\n";
-	}
-	
-	
+  public int getDeliveries() {
+    return deliveries;
+  }
+
+  public void setDeliveries(int deliveries) {
+    this.deliveries = deliveries;
+  }
+
+	// To String
+  @Override
+  public String toString() {
+    return "Driver - \nDriver Name: " + driverName + ", \nCity Name: " + cityName + ", \nDeliveries: " + deliveries + "\n";
+  }
+
+
 }
