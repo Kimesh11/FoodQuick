@@ -1,4 +1,4 @@
-package kimesh.hyerionDev.enums;
+package kimesh.hyperionDev.enums;
 
 public enum Status {
   // Status enum for order tracking

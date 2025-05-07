@@ -1,45 +1,49 @@
 package kimesh.hyperionDev.model;
 
 public class Address {
-	
-	private String streetName;
-	private String cityName;
-	private int postalCode;
-	
-	public Address(String streetName, String cityName, int postalCode) {
-		this.streetName = streetName;
-		this.cityName = cityName;
-		this.postalCode = postalCode;
-	}
 
-	public String getStreetName() {
-		return streetName;
-	}
+  // Address variables
+  private String streetName;
+  private String cityName;
+  private int postalCode;
 
-	public void setStreetName(String streetName) {
-		this.streetName = streetName;
-	}
+  // Constructor
+  public Address(String streetName, String cityName, int postalCode) {
+    this.streetName = streetName;
+    this.cityName = cityName;
+    this.postalCode = postalCode;
+  }
 
-	public String getCityName() {
-		return cityName;
-	}
+  // Getters and setters
+  public String getStreetName() {
+    return streetName;
+  }
 
-	public void setCityName(String cityName) {
-		this.cityName = cityName;
-	}
+  public void setStreetName(String streetName) {
+    this.streetName = streetName;
+  }
 
-	public int getPostalCode() {
-		return postalCode;
-	}
+  public String getCityName() {
+    return cityName;
+  }
 
-	public void setPostalCode(int postalCode) {
-		this.postalCode = postalCode;
-	}
+  public void setCityName(String cityName) {
+    this.cityName = cityName;
+  }
 
-	@Override
-	public String toString() {
-		return "\nStreet Name: " + streetName + ", \nCity Name: " + cityName + ", \nPostal Code: " + postalCode;
-	}
-	
-	
+  public int getPostalCode() {
+    return postalCode;
+  }
+
+  public void setPostalCode(int postalCode) {
+    this.postalCode = postalCode;
+  }
+
+  // To String
+  @Override
+  public String toString() {
+    return "\nStreet Name: " + streetName + ", \nCity Name: " + cityName + ", \nPostal Code: " + postalCode;
+  }
+
+
 }
